@@ -32,10 +32,18 @@ p {
 .top-panel {
   background-color: #30475e;
   border-radius: 10px;
-  height: 99.25%;
+  height: 74.25%;
   width: 20%;
+  top: 25%;
   position: fixed;
   text-align: center;
+}
+
+.profile-panel {
+  height: 25%;
+  width: 20%;
+  position: fixed;
+
 }
 
 .profile-frame {
@@ -43,7 +51,6 @@ p {
   border-radius: 50%;
   left: 12.5%;
   top: 2%;
-  height: 25%;
-  width: 75%;
-  position: relative;
+  height: 80%;
+  width: 80%;
 }
