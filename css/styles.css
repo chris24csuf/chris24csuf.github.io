@@ -9,11 +9,13 @@ body {
 .man-image {
   background-color: #f4f4f4;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 50%;
+  width: 50%;
+  margin: 5%;
 }
 
 .main-panel {
+  display: block;
   left: 22%;
   height: 100%;
   width: 75%;
