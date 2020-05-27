@@ -1,0 +1,48 @@
+body {
+  background-color: #222831;
+  font-family: 'Maven Pro', sans-serif;
+  margin: 0.25%;
+}
+
+h1 {
+  margin-top: 15%;
+  color: #ececec;
+}
+
+a {
+  color: #ececec;
+}
+
+p {
+  color: #ececec;
+  font-size: 1.5rem;
+  margin-top: 0.25%;
+  padding: 1%;
+}
+
+.main-panel {
+  left: 20%;
+  height: 100%;
+  width: 79.5%;
+  margin-left: 0.5%;
+  position: relative;
+}
+
+.side-panel {
+  background-color: #30475e;
+  border-radius: 10px;
+  height: 99.25%;
+  width: 20%;
+  position: fixed;
+  text-align: center;
+}
+
+.profile-frame {
+  background-color: #dae1e7;
+  border-radius: 50%;
+  left: 12.5%;
+  top: 2%;
+  height: 25%;
+  width: 75%;
+  position: relative;
+}
