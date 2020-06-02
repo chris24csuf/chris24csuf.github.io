@@ -1,8 +1,10 @@
 /*cubic-bezier(0.5, -0.5, 1, 1)*/
-/* ------------------------------TAGS------------------------------ */
+
+/* ----------------------------TAGS---------------------------- */
 a, body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 a {
@@ -17,29 +19,23 @@ body {
 }
 
 footer {
-  font-size: 1rem;
+  font-size: 0.7rem;
   padding-top: 5vh;
-  text-align: center;
+
 }
 
 header {
-  left: 30%;
-  padding-top: 35vh;
-  padding-bottom: 45vh;
+  height: 50vh;
+  padding-top: 43vh;
   position: relative;
-  width: 40%;
-}
-
-main {
-  text-align: center;
 }
 
 nav {
   background-color: #8ec6c5;
   display: inline-block;
-  padding: 3vh 0;
+  padding-bottom: 2vh;
+  padding-top: 2.5vh;
   position: sticky;
-  text-align: center;
   top: 0;
   width: 100%;
   z-index: 1;
@@ -47,70 +43,68 @@ nav {
 
 /* ----------------------------CLASSES---------------------------- */
 .about-me {
-  left: 30%;
-  padding: 5vh 0;
   position: relative;
-  width: 40%;
 }
 
 .about-me-h1 {
-  font-size: 2rem;
-  padding: 3vh;
+  font-size: 1rem;
 }
 
 .about-me-p {
+  font-size: 1rem;
+  left: 20%;
+  position: relative;
   text-align: justify;
+  width: 60%;
 }
 
 .bracket-image {
   filter: contrast(70%) grayscale(20%) opacity(70%) saturate(60%);
-  height: 80px;
+  height: 7vh;
   position: absolute;
 }
 
 .bracket-left {
-  clip: rect(0, 30px, 80px, 0);
-  left: 1%;
+  clip: rect(0, 3vh, 7vh, 0);
+  left: 20%;
 }
 
 .bracket-right {
-  clip: rect(0, 80px, 80px, 40px);
-  left: 85%;
+  clip: rect(0, 7vh, 7vh, 3vh);
+  right: 20%;
 }
 
 .name {
-  font-size: 4rem;
-  padding-bottom: 3vh;
+  font-size: 2rem;
+  padding-bottom: 1vh;
 }
 
 .name-detail {
-  font-size: 2.5rem;
-  height: 60px;
+  font-size: 1.5rem;
   left: 20%;
   padding: 10px 0;
   position: absolute;
-  text-align: center;
   width: 60%;
 }
 
 .nav-icons {
-  height: 30px;
-  width: 30px;
+  height: 3vh;
+  width: 3vh;
 }
 
 .nav-padding {
-  padding: 0 10px;
+  padding: 0 0.5vh;
 }
 
-.nav-text-position {
-  bottom: 9px;
+.nav-text {
+  bottom: 1vh;
   display: inline-block;
+  font-size: 0.8rem;
   position: relative;
 }
 
 .profile-image {
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  padding: 5vh;
+  height: 25vh;
+  width: 25vh;
 }

@@ -1,0 +1,21 @@
+@media screen and (max-width : 365px) {
+  main {
+    height: 95vh;
+    width: 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+  }
+
+  header {
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+  }
+
+  .test {
+    height: 100vh;
+    width: 100%;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    position: relative;
+  }
+}
