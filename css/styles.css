@@ -1,113 +1,143 @@
 /*cubic-bezier(0.5, -0.5, 1, 1)*/
 
-/* ----------------------------TAGS---------------------------- */
-a, body, h1, h2, h3, p {
-  margin: 0;
-  padding: 0;
-  text-align: center;
+.sceen-size-support {
+  display: block;
+}
+.snap-container {
+  display: none;
 }
 
-a {
- color: #8566aa;
-}
+@media only screen and (min-width: 300px) {
+  /* ----------------------------TAGS---------------------------- */
+  a, body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
 
-body {
-  color: #4d4c7d;
-  background-color: #f4f4f4;
-  font-family: 'Maven Pro', sans-serif;
-  font-weight: bold;
-}
+  a {
+   color: #8566aa;
+  }
 
-footer {
-  font-size: 0.7rem;
-  padding-top: 5vh;
+  body {
+    color: #4d4c7d;
+    background-color: #f4f4f4;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+  }
 
-}
+  footer {
+    font-size: 0.7rem;
+    padding-top: 90vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+  }
 
-header {
-  height: 50vh;
-  padding-top: 43vh;
-  position: relative;
-}
+  header {
+    height: 50vh;
+    padding-top: 43vh;
+    position: relative;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+  }
 
-nav {
-  background-color: #8ec6c5;
-  display: inline-block;
-  padding-bottom: 2vh;
-  padding-top: 2.5vh;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
+  nav {
+    background-color: #8ec6c5;
+    display: inline-block;
+    padding-bottom: 2vh;
+    padding-top: 2.5vh;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
 
-/* ----------------------------CLASSES---------------------------- */
-.about-me {
-  position: relative;
-}
+  section {
+    height: 85vh;
+    padding-top: 10vh;
+    position: relative;
+    overflow: hidden;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+  }
 
-.about-me-h1 {
-  font-size: 1rem;
-}
+  /* ----------------------------CLASSES---------------------------- */
+  .about-me-h1 {
+    font-size: 1rem;
+  }
 
-.about-me-p {
-  font-size: 1rem;
-  left: 20%;
-  position: relative;
-  text-align: justify;
-  width: 60%;
-}
+  .about-me-p {
+    font-size: 1rem;
+    left: 20%;
+    position: relative;
+    text-align: justify;
+    width: 60%;
+  }
 
-.bracket-container {
-  display: inline;
-  padding-right: 7vh;
-  position: relative;
-}
+  .bracket-container {
+    display: inline;
+    padding-right: 7vh;
+    position: relative;
+  }
 
-.bracket-left {
-  clip: rect(0, 3vh, 7vh, 0);
-}
+  .bracket-left {
+    clip: rect(0, 3vh, 7vh, 0);
+  }
 
-.bracket-right {
-  clip: rect(0, 7vh, 7vh, 3vh);
-}
+  .bracket-right {
+    clip: rect(0, 7vh, 7vh, 3vh);
+  }
 
-.bracket-image {
-  filter: contrast(70%) grayscale(20%) opacity(70%) saturate(60%);
-  height: 7vh;
-  position: absolute;
-}
+  .bracket-image {
+    filter: contrast(70%) grayscale(20%) opacity(70%) saturate(60%);
+    height: 7vh;
+    position: absolute;
+  }
 
-.name {
-  font-size: 2rem;
-  padding-bottom: 1vh;
-}
+  .name {
+    font-size: 2rem;
+    padding-bottom: 1vh;
+  }
 
-.name-detail {
-  display: inline-block;
-  font-size: 1.5rem;
-  padding: 1.5vh 0;
-  position: relative;
-}
+  .name-detail {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1.5vh 0;
+    position: relative;
+  }
 
-.nav-icons {
-  height: 3vh;
-  width: 3vh;
-}
+  .nav-icons {
+    height: 3vh;
+    width: 3vh;
+  }
 
-.nav-padding {
-  padding: 0 0.5vh;
-}
+  .nav-padding {
+    padding: 0 0.5vh;
+  }
 
-.nav-text {
-  bottom: 1vh;
-  display: inline-block;
-  font-size: 0.8rem;
-  position: relative;
-}
+  .nav-text {
+    bottom: 1vh;
+    display: inline-block;
+    font-size: 0.8rem;
+    position: relative;
+  }
 
-.profile-image {
-  border-radius: 50%;
-  height: 25vh;
-  width: 25vh;
+  .profile-image {
+    border-radius: 50%;
+    height: 25vh;
+    width: 25vh;
+  }
+
+  .screen-size-support {
+    display: none;
+  }
+
+  .snap-container {
+    display: block;
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+    position: relative;
+  }
 }
