@@ -39,10 +39,6 @@
     scroll-snap-align: start;
   }
 
-  html {
-    height: 100%;
-  }
-
   nav {
     background-color: #8ec6c5;
     display: inline-block;
@@ -135,10 +131,10 @@
 
   .snap-container {
     display: block;
-    height: 100vh;
+    height: 100%;
     overflow: scroll;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
-    position: relative;
+    position: fixed;
   }
 }
