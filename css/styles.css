@@ -58,20 +58,24 @@ nav {
   width: 60%;
 }
 
-.bracket-image {
-  filter: contrast(70%) grayscale(20%) opacity(70%) saturate(60%);
-  height: 7vh;
-  position: absolute;
+.bracket-container {
+  display: inline;
+  padding-right: 7vh;
+  position: relative;
 }
 
 .bracket-left {
   clip: rect(0, 3vh, 7vh, 0);
-  left: 20%;
 }
 
 .bracket-right {
   clip: rect(0, 7vh, 7vh, 3vh);
-  right: 20%;
+}
+
+.bracket-image {
+  filter: contrast(70%) grayscale(20%) opacity(70%) saturate(60%);
+  height: 7vh;
+  position: absolute;
 }
 
 .name {
@@ -80,11 +84,10 @@ nav {
 }
 
 .name-detail {
+  display: inline-block;
   font-size: 1.5rem;
-  left: 20%;
-  padding: 10px 0;
-  position: absolute;
-  width: 60%;
+  padding: 1.5vh 0;
+  position: relative;
 }
 
 .nav-icons {
