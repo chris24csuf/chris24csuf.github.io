@@ -73,39 +73,39 @@
 
   .bracket-container {
     display: inline;
-    padding-right: 7vh;
+    padding-right: 60px;
     position: relative;
   }
 
   .bracket-left {
-    clip: rect(0, 3vh, 7vh, 0);
+    clip: rect(0, 30px, 60px, 0);
   }
 
   .bracket-right {
-    clip: rect(0, 7vh, 7vh, 3vh);
+    clip: rect(0, 60px, 60px, 30px);
   }
 
   .bracket-image {
     filter: contrast(70%) grayscale(20%) opacity(70%) saturate(60%);
-    height: 7vh;
+    height: 60px;
     position: absolute;
   }
 
   .name {
     font-size: 2rem;
-    padding-bottom: 1vh;
+    padding-bottom: 5px;
   }
 
   .name-detail {
-    display: inline-block;
+    display: inline;
     font-size: 1.5rem;
-    padding: 1.5vh 0;
     position: relative;
+    top: 15px;
   }
 
   .nav-icons {
-    height: 3vh;
-    width: 3vh;
+    height: 25px;
+    width: 25px;
   }
 
   .nav-padding {
@@ -113,7 +113,7 @@
   }
 
   .nav-text {
-    bottom: 1vh;
+    bottom: 7px;
     display: inline-block;
     font-size: 0.8rem;
     position: relative;
@@ -121,8 +121,8 @@
 
   .profile-image {
     border-radius: 50%;
-    height: 25vh;
-    width: 25vh;
+    height: 150px;
+    width: 150px;
   }
 
   .screen-size-support {
