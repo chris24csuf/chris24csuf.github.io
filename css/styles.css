@@ -134,10 +134,10 @@
 
   .snap-container {
     display: block;
-    height: 100vh;
+    height: 100%;
     overflow: scroll;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
-    position: relative;
+    position: fixed;
   }
 }
