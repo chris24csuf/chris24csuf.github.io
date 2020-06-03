@@ -24,7 +24,6 @@
     background-color: #f4f4f4;
     font-family: 'Maven Pro', sans-serif;
     font-weight: bold;
-    height: 100%;
   }
 
   footer {
@@ -133,6 +132,7 @@
   .snap-container {
     display: block;
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     overflow: scroll;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
