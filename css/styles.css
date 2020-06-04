@@ -30,6 +30,7 @@
     font-size: 0.7rem;
     bottom: 0;
     position: sticky;
+    z-index: 1;
   }
 
   header {
