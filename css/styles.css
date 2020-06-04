@@ -37,7 +37,7 @@
   }
 
   header {
-    height: 50vh;
+    height: 50%;
     padding-top: 43vh;
     position: relative;
     scroll-snap-align: start;
@@ -55,7 +55,7 @@
   }
 
   section {
-    height: 85vh;
+    height: 90%;
     padding-top: 10vh;
     position: relative;
     overflow: hidden;
@@ -139,6 +139,6 @@
     overflow: scroll;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
-    position: fixed;
+    position: relative;
   }
 }
