@@ -42,7 +42,7 @@
     background-color: #8ec6c5;
     bottom: 0;
     display: inline-block;
-    height: 60px;
+    height: 65px;
     position: sticky;
     top: 0;
     width: 100%;
@@ -108,7 +108,7 @@
   }
 
   .nav-item-position {
-    padding-top: 19px;
+    padding-top: 20px;
   }
 
   .nav-padding {
