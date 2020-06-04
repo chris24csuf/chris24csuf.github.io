@@ -32,15 +32,14 @@
   }
 
   header {
-    height: 45vh;
-    padding-top: 40vh;
+    height: 50vh;
+    padding-top: 35vh;
     position: relative;
     scroll-snap-align: start;
   }
 
   nav {
     background-color: #8ec6c5;
-    bottom: 0;
     display: inline-block;
     height: 65px;
     position: sticky;
