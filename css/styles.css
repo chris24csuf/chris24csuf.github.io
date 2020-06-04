@@ -28,9 +28,6 @@
 
   footer {
     font-size: 0.7rem;
-    bottom: 2vh;
-    position: sticky;
-    z-index: 1;
   }
 
   header {
