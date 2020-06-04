@@ -27,8 +27,9 @@
   }
 
   footer {
-    font-size: 0.7rem;
-    padding: 3vh 0;
+    font-size: 0.6rem;
+    padding-top: 2.5vh;
+    padding-bottom: 4vh;
   }
 
   header {
@@ -42,7 +43,7 @@
     background-color: #8ec6c5;
     bottom: 0;
     display: inline-block;
-    height: 8vh;
+    height: 60px;
     position: sticky;
     top: 0;
     width: 100%;
@@ -108,7 +109,7 @@
   }
 
   .nav-item-position {
-    padding-top: 2.2vh;
+    padding-top: 19px;
   }
 
   .nav-padding {
