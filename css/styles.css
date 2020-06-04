@@ -28,7 +28,7 @@
 
   footer {
     font-size: 0.6rem;
-    padding: 3vh 0;
+    padding: 2.5vh 0;
   }
 
   header {
@@ -50,8 +50,8 @@
   }
 
   section {
-    height: 90vh;
-    padding-top: 10vh;
+    height: 89vh;
+    padding-top: 11vh;
     position: relative;
     overflow: hidden;
     scroll-snap-align: start;
