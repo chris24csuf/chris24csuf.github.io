@@ -32,13 +32,14 @@
 
   footer {
     font-size: 0.7rem;
-    padding-top: 90vh;
+    height: 5%;
+    padding-top: 95vh;
     scroll-snap-align: start;
   }
 
   header {
     height: 50%;
-    padding-top: 43vh;
+    padding-top: 42.5vh;
     position: relative;
     scroll-snap-align: start;
   }
@@ -46,8 +47,7 @@
   nav {
     background-color: #8ec6c5;
     display: inline-block;
-    padding-bottom: 2vh;
-    padding-top: 2.5vh;
+    height: 8%;
     position: sticky;
     top: 0;
     width: 100%;
@@ -110,6 +110,10 @@
   .nav-icons {
     height: 25px;
     width: 25px;
+  }
+
+  .nav-item-position {
+    padding-top: 2.2vh;
   }
 
   .nav-padding {
