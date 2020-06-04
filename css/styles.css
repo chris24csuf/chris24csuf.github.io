@@ -26,20 +26,15 @@
     font-weight: bold;
   }
 
-  body, html {
-    height: 100%;
-  }
-
   footer {
     font-size: 0.7rem;
-    height: 5%;
-    padding-top: 95vh;
-    scroll-snap-align: start;
+    bottom: 0;
+    position: sticky;
   }
 
   header {
-    height: 50%;
-    padding-top: 42.5vh;
+    height: 55vh;
+    padding-top: 45vh;
     position: relative;
     scroll-snap-align: start;
   }
@@ -47,7 +42,7 @@
   nav {
     background-color: #8ec6c5;
     display: inline-block;
-    height: 8%;
+    height: 8vh;
     position: sticky;
     top: 0;
     width: 100%;
@@ -55,7 +50,7 @@
   }
 
   section {
-    height: 90%;
+    height: 90vh;
     padding-top: 10vh;
     position: relative;
     overflow: hidden;
@@ -139,7 +134,7 @@
 
   .snap-container {
     display: block;
-    height: 100%;
+    height: 100vh;
     overflow: scroll;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
