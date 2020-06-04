@@ -49,8 +49,8 @@
   }
 
   section {
-    height: 89vh;
-    padding-top: 11vh;
+    height: 80vh;
+    padding-top: 20vh;
     position: relative;
     overflow: hidden;
     scroll-snap-align: start;
@@ -67,6 +67,7 @@
     left: 15%;
     position: relative;
     text-align: justify;
+    text-indent: 3vh;
     width: 70%;
   }
 
