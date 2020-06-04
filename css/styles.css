@@ -1,6 +1,6 @@
 /*cubic-bezier(0.5, -0.5, 1, 1)*/
 
-.sceen-size-support {
+.screen-size-not-supported {
   display: block;
 }
 .snap-container {
@@ -8,7 +8,7 @@
 }
 
 @media only screen and (min-width: 360px) {
-  /* ----------------------------TAGS---------------------------- */
+  /* ----------TAGS---------- */
   a, body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
@@ -50,13 +50,13 @@
 
   section {
     height: 80vh;
+    overflow: hidden;
     padding-top: 20vh;
     position: relative;
-    overflow: hidden;
     scroll-snap-align: start;
   }
 
-  /* ----------------------------CLASSES---------------------------- */
+  /* ----------CLASSES---------- */
   .about-me-h1 {
     font-size: 1.25rem;
     padding: 1.5vh;
@@ -77,18 +77,18 @@
     position: relative;
   }
 
+  .bracket-image {
+    filter: contrast(70%) grayscale(20%) opacity(70%) saturate(60%);
+    height: 60px;
+    position: absolute;
+  }
+
   .bracket-left {
     clip: rect(0, 30px, 60px, 0);
   }
 
   .bracket-right {
     clip: rect(0, 60px, 60px, 30px);
-  }
-
-  .bracket-image {
-    filter: contrast(70%) grayscale(20%) opacity(70%) saturate(60%);
-    height: 60px;
-    position: absolute;
   }
 
   .name {
@@ -130,7 +130,7 @@
     width: 150px;
   }
 
-  .screen-size-support {
+  .screen-size-not-supported {
     display: none;
   }
 
