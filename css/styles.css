@@ -26,6 +26,10 @@
     font-weight: bold;
   }
 
+  body, html {
+    height: 100%;
+  }
+
   footer {
     font-size: 0.7rem;
     padding-top: 90vh;
