@@ -27,13 +27,14 @@
   }
 
   footer {
-    bottom: 0;
+    /* bottom: 0; */
     font-size: 0.7rem;
-    position: sticky;
+    padding: 2.5vh 0; 
+    /* position: sticky; */
   }
 
   header {
-    height: 50vh;
+    height: 45vh;
     padding-top: 40vh;
     position: relative;
     scroll-snap-align: start;
