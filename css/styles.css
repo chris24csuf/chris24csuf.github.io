@@ -27,18 +27,21 @@
   }
 
   footer {
+    bottom: 0;
     font-size: 0.7rem;
+    position: sticky;
   }
 
   header {
-    height: 55vh;
-    padding-top: 45vh;
+    height: 60vh;
+    padding-top: 40vh;
     position: relative;
     scroll-snap-align: start;
   }
 
   nav {
     background-color: #8ec6c5;
+    bottom: 0;
     display: inline-block;
     height: 8vh;
     position: sticky;
