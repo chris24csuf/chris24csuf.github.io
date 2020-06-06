@@ -55,9 +55,9 @@
   }
 
   section {
-    height: 85vh;
+    height: 87.5vh;
     overflow: hidden;
-    padding-top: 15vh;
+    padding-top: 12.5vh;
     position: relative;
     scroll-snap-align: start;
   }
@@ -124,7 +124,7 @@
 
   .section-bg {
     bottom: 0;
-    height: 10vh;
+    height: 15vh;
     position: absolute;
     width: 100%;
     z-index: 1;
