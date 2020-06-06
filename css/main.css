@@ -51,13 +51,13 @@
     position: sticky;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
   }
 
   section {
-    height: 90vh;
+    height: 85vh;
     overflow: hidden;
-    padding-top: 10vh;
+    padding-top: 15vh;
     position: relative;
     scroll-snap-align: start;
   }
@@ -81,6 +81,14 @@
 
   .bracket-right {
     clip: rect(0, 50px, 50px, 25px);
+  }
+
+  .dark-bg {
+    background-color: #dee3e2;
+  }
+
+  .light-bg {
+    background-color: white;
   }
 
   .name {
@@ -112,6 +120,14 @@
     height: 150px;
     padding: 2vh;
     width: 150px;
+  }
+
+  .section-bg {
+    bottom: 0;
+    height: 5vh;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
   }
 
   .section-h1 {
