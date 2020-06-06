@@ -37,8 +37,9 @@
   }
 
   hr {
+    border: 0;
     border-style: solid;
-    border-width: 2px;
+    border-bottom-width: 3px;
     margin: 0 auto;
     width: 150px;
   }
