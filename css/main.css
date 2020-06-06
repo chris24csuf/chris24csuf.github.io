@@ -38,7 +38,7 @@
 
   hr {
     border-style: solid;
-    border-width: 1.5px;
+    border-width: 2px;
     margin: 0 auto;
     width: 150px;
   }
@@ -124,7 +124,7 @@
 
   .section-bg {
     bottom: 0;
-    height: 5vh;
+    height: 10vh;
     position: absolute;
     width: 100%;
     z-index: 1;
