@@ -1,0 +1,35 @@
+@media screen and (min-width : 900px) {
+  footer {
+    font-size: 0.7rem;
+    padding: 2.5vh 0;
+  }
+
+  .bracket-container {
+    padding-right: 70px;
+  }
+
+  .bracket-image {
+    height: 70px;
+  }
+
+  .bracket-left {
+    clip: rect(0, 35px, 70px, 0);
+  }
+
+  .bracket-right {
+    clip: rect(0, 70px, 70px, 35px);
+  }
+
+  .name {
+    font-size: 3.25rem;
+  }
+
+  .name-detail {
+    font-size: 2rem;
+    top: 15px;
+  }
+
+  .nav-p {
+    font-size: 0.9rem;
+  }
+}
