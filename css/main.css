@@ -76,7 +76,7 @@
   }
 
   p {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: lighter;
     padding: 0.5vh 1vh;
   }
@@ -164,13 +164,13 @@
 
   .section-snap-container {
     height: 80%;
-    left: 7%;
+    left: 5%;
     text-align: left;
     overflow: scroll;
     overflow-y: hidden;
     position: relative;
     scroll-snap-type: x mandatory;
-    width: 85%;
+    width: 90%;
     white-space: nowrap;
   }
 
