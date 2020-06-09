@@ -33,6 +33,22 @@
     font-size: 0.9rem;
   }
 
+  .section-content-1 {
+    height: 100%;
+    left: 12%;
+    position: absolute;
+    text-align: left;
+    width: 35%;
+  }
+
+  .section-content-2 {
+    height: 100%;
+    right: 12%;
+    position: absolute;
+    text-align: left;
+    width: 35%;
+  }
+
   .section-bg {
     height: 6vh;
   }
