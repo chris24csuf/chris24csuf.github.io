@@ -139,6 +139,10 @@
     text-decoration: none;
   }
 
+  .nav-bg {
+    background-color: #8ec6c5;
+  }
+
   .nav-item-position {
     padding-top: 30px;
   }
