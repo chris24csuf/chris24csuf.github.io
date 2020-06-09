@@ -167,6 +167,7 @@
     left: 5%;
     text-align: left;
     overflow: scroll;
+    overflow-x: visible;
     overflow-y: hidden;
     position: relative;
     scroll-snap-type: x mandatory;
@@ -191,7 +192,6 @@
     height: 100vh;
     overflow: scroll;
     overflow-x: hidden;
-    overflow-y: visible;
     position: relative;
     scroll-snap-type: y mandatory;
   }
