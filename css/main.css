@@ -159,10 +159,9 @@
   }
 
   .section-content {
-    bottom: 19vh;
     display: inline-block;
-    height: 100%;
-    padding-top: 19vh;
+    height: 80%;
+    padding-top: 18vh;
     position: relative;
     scroll-snap-align: start;
     width: 100%;
@@ -171,7 +170,7 @@
   }
 
   .section-content-page {
-    bottom: 0;
+    bottom: 1vh;
     height: 20px;
     width: 100%;
     text-align: center;
@@ -180,7 +179,7 @@
 
   .section-content-page-a {
     color: #4d4c7d;
-    padding: 3vh;
+    padding: 2vh;
     text-decoration: none;
   }
 
@@ -200,20 +199,21 @@
   }
 
   .section-snap-container {
-    height: 80%;
+    height: 90%;
     left: 5%;
     text-align: left;
     overflow: scroll;
     overflow-y: hidden;
-    position: relative;
+    position: absolute;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
+    top: 0;
+    width: 90%;
+    white-space: nowrap;
     -ms-overflow-style: none;
     -webkit-scroll-snap-type: mandatory;
     -webkit-overflow-scrolling: touch;
-    width: 90%;
-    white-space: nowrap;
   }
 
   .screen-width-not-supported {
