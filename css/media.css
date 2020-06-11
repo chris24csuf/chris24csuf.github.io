@@ -1,4 +1,207 @@
-@media screen and (min-width : 900px) {
+@media screen and (min-width: 360px) {
+  /* ----------TAGS---------- */
+  footer {
+    padding: 1vh 0;
+  }
+
+  h1 {
+    font-size: 2.1rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 0.95rem;
+  }
+
+  hr {
+    width: 130px;
+  }
+
+  li {
+    font-size: 0.85rem;
+  }
+
+  nav {
+    height: 55px;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  ul {
+    column-count: 2;
+    padding-inline-start: 20px;
+  }
+
+  /* ----------CLASSES---------- */
+  .bracket-container {
+    padding-right: 40px;
+  }
+
+  .bracket-image {
+    height: 40px;
+  }
+
+  .bracket-left {
+    clip: rect(0, 20px, 40px, 0);
+  }
+
+  .bracket-right {
+    clip: rect(0, 40px, 40px, 20px);
+  }
+
+  .footer-p {
+    font-size: 0.60rem;
+  }
+
+  .image-240z {
+    height: 160px;
+    padding: 3vh;
+    width: 160px;
+  }
+
+  .image-profile {
+    height: 140px;
+    padding: 1.2vh;
+    width: 140px;
+  }
+
+  .name-detail {
+    font-size: 1.4rem;
+    top: 6px;
+  }
+
+  .nav-a {
+    font-size: 0.75rem;
+  }
+
+  .nav-item-position {
+    padding-top: 25px;
+  }
+
+  .section-content-page {
+    height: 16px;
+  }
+
+  .section-content-page-dot {
+    border-radius: 4px;
+    width: 8px;
+    height: 8px;
+  }
+
+  .url-icon-img {
+    height: 21px;
+    width: 21px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  /* ----------TAGS---------- */
+  footer {
+    padding: 1vh 0;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.05rem;
+  }
+
+  hr {
+    width: 140px;
+  }
+
+  li {
+    font-size: 0.95rem;
+  }
+
+  nav {
+    height: 65px;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  ul {
+    column-count: 2;
+    padding-inline-start: 25px;
+  }
+
+  /* ----------CLASSES---------- */
+  .bracket-container {
+    padding-right: 50px;
+  }
+
+  .bracket-image {
+    height: 50px;
+  }
+
+  .bracket-left {
+    clip: rect(0, 25px, 50px, 0);
+  }
+
+  .bracket-right {
+    clip: rect(0, 50px, 50px, 25px);
+  }
+
+  .footer-p {
+    font-size: 0.65rem;
+  }
+
+  .image-240z {
+    height: 175px;
+    padding: 3vh;
+    width: 175px;
+  }
+
+  .image-profile {
+    height: 150px;
+    padding: 1.5vh;
+    width: 150px;
+  }
+
+  .name-detail {
+    font-size: 1.5rem;
+    top: 12px;
+  }
+
+  .nav-a {
+    font-size: 0.85rem;
+  }
+
+  .nav-item-position {
+    padding-top: 30px;
+  }
+
+  .section-content-page {
+    height: 20px;
+  }
+
+  .section-content-page-dot {
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .url-icon-img {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  /* ----------TAGS---------- */
   footer {
     font-size: 0.8rem;
     padding: 2.5vh 0;
@@ -30,6 +233,7 @@
     height: 60px;
   }
 
+  /* ----------CLASSES---------- */
   .bracket-container {
     padding-right: 70px;
   }
