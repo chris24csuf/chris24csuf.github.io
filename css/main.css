@@ -65,6 +65,11 @@
     width: 150px;
   }
 
+  li {
+    font-size: 0.9rem;
+    padding: 0.25vh 0;
+  }
+
   nav {
     background-color: #8ec6c5;
     display: inline-block;
@@ -87,6 +92,13 @@
     padding-top: 12.5vh;
     position: relative;
     scroll-snap-align: start;
+  }
+
+  ul {
+    column-count: 2;
+    column-gap: 20%;
+    margin-top: 0.5vh;
+    padding-inline-start: 25px;
   }
 
   /* ----------CLASSES---------- */
@@ -126,6 +138,15 @@
     padding: 3vh;
     position: relative;
     width: 180px;
+  }
+
+  .image-graduate {
+    display: block;
+    height: 100px;
+    margin: auto;
+    padding-top: 10vh;
+    position: relative;
+    width: 100px;
   }
 
   .image-profile {
@@ -175,8 +196,8 @@
 
   .section-content {
     display: inline-block;
-    height: 80%;
-    padding-top: 18vh;
+    height: 78%;
+    padding-top: 20vh;
     position: relative;
     scroll-snap-align: start;
     width: 100%;

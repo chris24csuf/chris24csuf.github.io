@@ -1,7 +1,33 @@
 @media screen and (min-width : 900px) {
   footer {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     padding: 2.5vh 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.55rem;
+    padding-top: 10vh;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  li {
+    font-size: 1.05rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  ul {
+    column-count: 3;
+    height: 60px;
   }
 
   .bracket-container {
@@ -20,6 +46,11 @@
     clip: rect(0, 70px, 70px, 35px);
   }
 
+  .image-graduate {
+    height: 120px;
+    width: 120px;
+  }
+
   .name {
     font-size: 3.25rem;
   }
@@ -29,8 +60,18 @@
     top: 15px;
   }
 
-  .nav-p {
+  .nav-a {
     font-size: 0.9rem;
+  }
+
+  .section-about-me {
+    left: 18%;
+    width: 64%;
+  }
+
+  .section-content {
+    height: 68%;
+    padding-top: 30vh;
   }
 
   .section-bg {
@@ -43,5 +84,18 @@
 
   .section-p {
     font-size: 1rem;
+  }
+
+  .section-page {
+    height: 7vh;
+  }
+
+  .section-snap-container {
+    height: 93%;
+  }
+
+  .section-skills {
+    left: 25%;
+    width: 50%;
   }
 }
