@@ -55,7 +55,7 @@
   }
 
   .footer-p {
-    font-size: 0.60rem;
+    font-size: 0.65rem;
   }
 
   .image-240z {
@@ -156,7 +156,7 @@
   }
 
   .footer-p {
-    font-size: 0.65rem;
+    font-size: 0.7rem;
   }
 
   .image-240z {
@@ -215,7 +215,6 @@
 @media screen and (min-width: 1000px) {
   /* ----------TAGS---------- */
   footer {
-    font-size: 0.8rem;
     padding: 2.5vh 0;
   }
 
@@ -264,6 +263,10 @@
 
   .bracket-right {
     clip: rect(0, 70px, 70px, 35px);
+  }
+
+  .footer-p {
+    font-size: 0.8rem;
   }
 
   .image-graduate {
