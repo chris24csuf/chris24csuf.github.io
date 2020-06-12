@@ -200,7 +200,19 @@
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 800px) {
+
+}
+
+@media screen and (min-width: 800px) and (min-height: 1000px) {
+
+}
+
+@media screen and (min-width: 1000px) {
   /* ----------TAGS---------- */
   footer {
     font-size: 0.8rem;
