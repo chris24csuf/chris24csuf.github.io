@@ -229,6 +229,7 @@
 
   h3 {
     font-size: 1.15rem;
+    padding-top: 2vh;
   }
 
   hr {
@@ -269,9 +270,22 @@
     font-size: 0.8rem;
   }
 
+  .image-240z {
+    height: 200px;
+    padding: 3vh;
+    width: 200px;
+  }
+
   .image-graduate {
     height: 120px;
+    padding-top: 13vh;
     width: 120px;
+  }
+
+  .image-profile {
+    height: 175px;
+    padding: 1.5vh;
+    width: 175px;
   }
 
   .name {
@@ -293,8 +307,8 @@
   }
 
   .section-content {
-    height: 68%;
-    padding-top: 30vh;
+    height: 70%;
+    padding-top: 28vh;
   }
 
   .section-bg {
@@ -320,5 +334,10 @@
   .section-skills {
     left: 25%;
     width: 50%;
+  }
+
+  .url-icon-img {
+    height: 30px;
+    width: 30px;
   }
 }

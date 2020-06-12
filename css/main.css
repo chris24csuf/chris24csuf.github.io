@@ -144,7 +144,7 @@
     display: block;
     height: 100px;
     margin: auto;
-    padding-top: 10vh;
+    padding-top: 20vh;
     position: relative;
     width: 100px;
   }
@@ -196,8 +196,8 @@
 
   .section-content {
     display: inline-block;
-    height: 78%;
-    padding-top: 20vh;
+    height: 80%;
+    padding-top: 18vh;
     position: relative;
     scroll-snap-align: start;
     width: 100%;
