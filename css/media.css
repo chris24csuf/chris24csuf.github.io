@@ -224,12 +224,16 @@
   }
 
   h2 {
-    font-size: 1.55rem;
+    font-size: 1.35rem;
     padding-top: 10vh;
   }
 
   h3 {
     font-size: 1.1rem;
+  }
+
+  hr {
+    width: 130px;
   }
 
   li {
