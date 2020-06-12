@@ -9,7 +9,7 @@
 
 @media only screen and (min-width: 320px) and (min-height: 550px) {
   /* ----------TAGS---------- */
-  a, body, h1, h2, h3, p {
+  a, body, h1, h2, h3, h4, p {
     margin: 0;
     padding: 0;
   }
@@ -44,7 +44,6 @@
   h2 {
     font-size: 0.95rem;
     font-weight: bold;
-    padding: 0;
     padding-top: 0.5vh;
   }
 
@@ -53,6 +52,14 @@
     font-weight: bold;
     padding: 0.5vh 1vh;
     padding-top: 1vh;
+  }
+
+  h4 {
+    font-size: 0.75rem;
+    /* font-style: italic; */
+    font-weight: lighter;
+    padding: 0 1vh;
+    padding-bottom: 1.5vh;
   }
 
   hr {
@@ -98,7 +105,7 @@
     column-count: 2;
     column-gap: 20%;
     margin-top: 0.5vh;
-    padding-inline-start: 20px;
+    padding-inline-start: 25px;
   }
 
   /* ----------CLASSES---------- */
@@ -144,7 +151,7 @@
     display: block;
     height: 100px;
     margin: auto;
-    padding-top: 20vh;
+    padding-top: 16vh;
     position: relative;
     width: 100px;
   }

@@ -16,6 +16,10 @@
     font-size: 0.95rem;
   }
 
+  h4 {
+    font-size: 0.8rem;
+  }
+
   hr {
     width: 110px;
   }
@@ -34,7 +38,7 @@
 
   ul {
     column-count: 2;
-    padding-inline-start: 20px;
+    /* padding-inline-start: 20px; */
   }
 
   /* ----------CLASSES---------- */
@@ -117,6 +121,10 @@
     font-size: 1.05rem;
   }
 
+  h4 {
+    font-size: 0.9rem;
+  }
+
   hr {
     width: 120px;
   }
@@ -135,7 +143,7 @@
 
   ul {
     column-count: 2;
-    padding-inline-start: 25px;
+    padding-inline-start: 30px;
   }
 
   /* ----------CLASSES---------- */
@@ -232,6 +240,10 @@
     padding-top: 2vh;
   }
 
+  h4 {
+    font-size: 1rem;
+  }
+
   hr {
     width: 130px;
   }
@@ -247,6 +259,7 @@
   ul {
     column-count: 3;
     height: 80px;
+    padding-inline-start: 40px;
   }
 
   /* ----------CLASSES---------- */
@@ -311,6 +324,16 @@
     padding-top: 28vh;
   }
 
+  .section-content-page {
+    height: 24px;
+  }
+
+  .section-content-page-dot {
+    border-radius: 6px;
+    width: 12px;
+    height: 12px;
+  }
+
   .section-bg {
     height: 6vh;
   }
@@ -325,6 +348,11 @@
 
   .section-page {
     height: 7vh;
+  }
+
+  .section-projects {
+    left: 18%;
+    width: 64%;
   }
 
   .section-snap-container {
