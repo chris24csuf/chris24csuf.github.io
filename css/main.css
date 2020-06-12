@@ -36,23 +36,23 @@
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: bold;
     padding-bottom: 5px;
   }
 
   h2 {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     font-weight: bold;
     padding: 0;
     padding-top: 0.5vh;
   }
 
   h3 {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: bold;
     padding: 0.5vh 1vh;
-    padding-top: 2vh;
+    padding-top: 1vh;
   }
 
   hr {
@@ -62,7 +62,7 @@
     margin: 0 auto;
     margin-top: 0.5vh;
     margin-bottom: 1.5vh;
-    width: 110px;
+    width: 100px;
   }
 
   li {
@@ -82,7 +82,7 @@
   }
 
   p {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     font-weight: lighter;
     padding: 0.5vh 1vh;
   }
@@ -168,7 +168,7 @@
     display: inline;
     font-size: 1.3rem;
     position: relative;
-    top: 5px;
+    top: 6.5px;
   }
 
   .nav-a {

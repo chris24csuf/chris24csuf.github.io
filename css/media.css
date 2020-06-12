@@ -5,11 +5,11 @@
   }
 
   h1 {
-    font-size: 2.1rem;
+    font-size: 2rem;
   }
 
   h2 {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   h3 {
@@ -17,7 +17,7 @@
   }
 
   hr {
-    width: 130px;
+    width: 110px;
   }
 
   li {
@@ -29,7 +29,7 @@
   }
 
   p {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
   }
 
   ul {
@@ -59,15 +59,15 @@
   }
 
   .image-240z {
-    height: 160px;
-    padding: 3vh;
-    width: 160px;
+    height: 150px;
+    padding: 2.5vh;
+    width: 150px;
   }
 
   .image-profile {
-    height: 140px;
-    padding: 1.2vh;
-    width: 140px;
+    height: 135px;
+    padding: 1vh;
+    width: 135px;
   }
 
   .name-detail {
@@ -106,11 +106,11 @@
   }
 
   h1 {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
   }
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   h3 {
@@ -118,7 +118,7 @@
   }
 
   hr {
-    width: 140px;
+    width: 120px;
   }
 
   li {
@@ -130,7 +130,7 @@
   }
 
   p {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 
   ul {
@@ -241,7 +241,7 @@
   }
 
   p {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 
   ul {
