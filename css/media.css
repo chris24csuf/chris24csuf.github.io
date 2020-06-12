@@ -5,7 +5,7 @@
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
 
   h2 {
@@ -110,7 +110,7 @@
   }
 
   h1 {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
   }
 
   h2 {
@@ -148,19 +148,19 @@
 
   /* ----------CLASSES---------- */
   .bracket-container {
-    padding-right: 50px;
+    padding-right: 46px;
   }
 
   .bracket-image {
-    height: 50px;
+    height: 46px;
   }
 
   .bracket-left {
-    clip: rect(0, 25px, 50px, 0);
+    clip: rect(0, 23px, 46px, 0);
   }
 
   .bracket-right {
-    clip: rect(0, 50px, 50px, 25px);
+    clip: rect(0, 46px, 46px, 23px);
   }
 
   .footer-p {
@@ -181,7 +181,7 @@
 
   .name-detail {
     font-size: 1.5rem;
-    top: 12px;
+    top: 8px;
   }
 
   .nav-a {
