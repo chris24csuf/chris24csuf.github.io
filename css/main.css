@@ -116,7 +116,6 @@
   }
 
   .bracket-image {
-    filter: contrast(70%) grayscale(20%) opacity(70%) saturate(60%);
     height: 40px;
     position: absolute;
   }
