@@ -245,6 +245,7 @@
   }
 
   hr {
+    border-bottom-width: 4px;
     width: 130px;
   }
 
