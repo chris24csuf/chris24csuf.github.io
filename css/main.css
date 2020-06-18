@@ -16,6 +16,7 @@
 
   a {
    color: #8566aa;
+   user-select: none;
   }
 
   body {
@@ -144,6 +145,7 @@
     margin: auto;
     padding: 2vh;
     position: relative;
+    user-select: none;
     width: 120px;
   }
 
