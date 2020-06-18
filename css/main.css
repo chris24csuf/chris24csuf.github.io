@@ -198,6 +198,7 @@
     position: absolute;
     right: 35px;
     top: 15px;
+    user-select: none;
   }
 
   .name-detail {
