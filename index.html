@@ -11,11 +11,17 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat&display=swap">
     <link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/media.css">
+		<script type="text/javascript" src="scripts/modal.js"></script>
 	</head>
 
 	<body>
 		<div class="screen-width-not-supported">
-			<p>This screen dimension is not supported at this time.</p></div>
+			<p>This screen dimension is not supported at this time.</p>
+		</div>
+
+		<div id="modal-240z" class="modal">
+			<span class="modal-close">&times;</span>
+		</div>
 
 		<div class="snap-container">
 			<header>
@@ -91,7 +97,7 @@
 							for creativity, modification, and improvement. With experience as a military mechanic and a wonder for all things machine,
 							I hope to endlessly hone my skillset.
 						</p>
-						<img class="image-240z" src="images/my-240z.png" alt="image-240z">
+						<img onclick="my240z()" class="image-240z" src="images/my-240z.png" alt="image-240z">
 						<div class="section-content-page">
 							<a href="#hello-world" class="section-content-page-a">
 								<span class="section-content-page-dot dark-bg"></span>
