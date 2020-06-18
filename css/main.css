@@ -188,13 +188,14 @@
   }
 
   .modal-close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
     color: #f1f1f1;
+    cursor: pointer;
     font-family: sans-serif;
     font-size: 40px;
     font-weight: bold;
+    position: absolute;
+    right: 35px;
+    top: 15px;
   }
 
   .name-detail {
