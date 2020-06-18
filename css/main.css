@@ -17,6 +17,10 @@
   a {
    color: #8566aa;
    user-select: none;
+   -khtml-user-select: none;
+   -o-user-select: none;
+   -moz-user-select: none;
+   -webkit-user-select: none;
   }
 
   body {
@@ -147,6 +151,10 @@
     position: relative;
     user-select: none;
     width: 120px;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
   }
 
   .image-graduate {
@@ -199,6 +207,10 @@
     right: 35px;
     top: 15px;
     user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
   }
 
   .name-detail {
@@ -262,6 +274,10 @@
     width: 8px;
     height: 8px;
     user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
   }
 
   .section-page {
