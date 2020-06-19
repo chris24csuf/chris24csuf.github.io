@@ -191,15 +191,9 @@
     background-color: black;
     display: none;
     height: 100%;
-    opacity: 60%;
-    overflow: scroll;
-    overflow-x: hidden;
+    opacity: 65%;
     position: fixed;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
     width: 100%;
-    -webkit-scroll-snap-type: mandatory;
-    -webkit-overflow-scrolling: touch;
     z-index: 3;
   }
 
@@ -207,11 +201,11 @@
     color: #f1f1f1;
     cursor: pointer;
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     position: absolute;
-    right: 35px;
-    top: 15px;
+    right: 5%;
+    top: 11%;
     -webkit-tap-highlight-color: transparent;
   }
 
