@@ -1,7 +1,7 @@
 
-function my240z(){
-  let modal = document.getElementById('modal-240z');
-  let close_modal = document.getElementsByClassName('modal-close')[0];
+function open_modal(name){
+  let modal = document.getElementById(name);
+  let close_modal = document.querySelector("#" + name + ".modal span.modal-close");
 
   modal.style.display = 'block';
 

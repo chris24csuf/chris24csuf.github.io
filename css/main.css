@@ -110,22 +110,22 @@
   }
 
   /* ----------CLASSES---------- */
-  .bracket-container {
+  .coding-container {
     display: inline;
     padding-right: 40px;
     position: relative;
   }
 
-  .bracket-image {
+  .coding-image {
     height: 40px;
     position: absolute;
   }
 
-  .bracket-left {
+  .coding-left {
     clip: rect(0, 20px, 40px, 0);
   }
 
-  .bracket-right {
+  .coding-right {
     clip: rect(0, 40px, 40px, 20px);
   }
 
@@ -138,15 +138,21 @@
   }
 
   .image-240z {
-    cursor: pointer;
     border-radius: 50%;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .image-container {
+    cursor: pointer;
     display: block;
     height: 120px;
     margin: auto;
     padding: 2vh;
     position: relative;
     width: 120px;
-    -webkit-tap-highlight-color: transparent;
   }
 
   .image-graduate {
@@ -156,6 +162,14 @@
     padding-top: 16vh;
     position: relative;
     width: 100px;
+  }
+
+  .image-photos-icon {
+    top: 2vh;
+    left: 2vh;
+    height: 16px;
+    position: absolute;
+    width: 16px;
   }
 
   .image-profile {
