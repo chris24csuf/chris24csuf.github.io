@@ -142,7 +142,6 @@
     height: 100%;
     object-fit: cover;
     width: 100%;
-    -webkit-tap-highlight-color: transparent;
   }
 
   .image-container {
@@ -153,6 +152,7 @@
     padding: 2vh;
     position: relative;
     width: 120px;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .image-graduate {
