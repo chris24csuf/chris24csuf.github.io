@@ -42,19 +42,19 @@
   }
 
   /* ----------CLASSES---------- */
-  .bracket-container {
+  .coding-container {
     padding-right: 40px;
   }
 
-  .bracket-image {
+  .coding-image {
     height: 40px;
   }
 
-  .bracket-left {
+  .coding-left {
     clip: rect(0, 20px, 40px, 0);
   }
 
-  .bracket-right {
+  .coding-right {
     clip: rect(0, 40px, 40px, 20px);
   }
 
@@ -154,19 +154,19 @@
   }
 
   /* ----------CLASSES---------- */
-  .bracket-container {
+  .coding-container {
     padding-right: 46px;
   }
 
-  .bracket-image {
+  .coding-image {
     height: 46px;
   }
 
-  .bracket-left {
+  .coding-left {
     clip: rect(0, 23px, 46px, 0);
   }
 
-  .bracket-right {
+  .coding-right {
     clip: rect(0, 46px, 46px, 23px);
   }
 
@@ -278,20 +278,20 @@
   }
 
   /* ----------CLASSES---------- */
-  .bracket-container {
-    padding-right: 70px;
+  .coding-container {
+    padding-right: 60px;
   }
 
-  .bracket-image {
-    height: 70px;
+  .coding-image {
+    height: 60px;
   }
 
-  .bracket-left {
-    clip: rect(0, 35px, 70px, 0);
+  .coding-left {
+    clip: rect(0, 30px, 60px, 0);
   }
 
-  .bracket-right {
-    clip: rect(0, 70px, 70px, 35px);
+  .coding-right {
+    clip: rect(0, 60px, 60px, 30px);
   }
 
   .footer-p {
@@ -329,7 +329,7 @@
 
   .name-detail {
     font-size: 2rem;
-    top: 15px;
+    top: 10px;
   }
 
   .nav-a {
