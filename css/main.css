@@ -164,6 +164,14 @@
     width: 100px;
   }
 
+  .image-modal {
+    height: 85%;
+    margin: auto;
+    padding: 0 2%;
+    object-fit: contain;
+    width: 85%;
+  }
+
   .image-photos-icon {
     top: 2vh;
     left: 2vh;
@@ -188,13 +196,29 @@
   }
 
   .modal {
-    background-color: black;
     display: none;
     height: 100%;
-    opacity: 70%;
     position: fixed;
     width: 100%;
     z-index: 3;
+  }
+
+  .modal-bg {
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 69%;
+    position: relative;
+  }
+
+  .modal-bg-bottom {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 14%;
+    position: relative;
+  }
+
+  .modal-bg-top {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 17%;
+    position: relative;
   }
 
   .modal-close {
@@ -205,8 +229,20 @@
     font-weight: bold;
     position: absolute;
     right: 5%;
-    top: 11%;
+    top: 10%;
     -webkit-tap-highlight-color: transparent;
+  }
+
+  .modal-scroll-container {
+    display: flex;
+    height: 100%;
+    left: 5%;
+    overflow: scroll;
+    overflow-y: hidden;
+    position: relative;
+    scrollbar-width: none;
+    width: 90%;
+    -webkit-overflow-scrolling: touch;
   }
 
   .name-detail {
@@ -282,13 +318,13 @@
   .section-snap-container {
     height: 90%;
     left: 5%;
-    text-align: left;
     overflow: scroll;
     overflow-y: hidden;
     position: absolute;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
+    text-align: left;
     top: 0;
     width: 90%;
     white-space: nowrap;
