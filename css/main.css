@@ -148,7 +148,7 @@
   }
 
   .image-container {
-    bottom: 5vh;
+    bottom: 5%;
     cursor: pointer;
     display: block;
     height: 110px;
@@ -159,6 +159,10 @@
     transform: translateX(-50%);
     width: 110px;
     -webkit-tap-highlight-color: transparent;
+  }
+
+  .image-content:active {
+    transform: scale(1.07);
   }
 
   .image-content:hover {
@@ -272,6 +276,10 @@
     transition: 0.3s;
   }
 
+  .nav-a:active {
+    transform: scale(1.3);
+  }
+
   .nav-a:hover {
     transform: scale(1.3);
   }
@@ -306,6 +314,10 @@
     position: absolute;
     text-align: center;
     transition: 0.3s;
+  }
+
+  .section-content-page:active {
+    transform: scale(1.2);
   }
 
   .section-content-page:hover {
@@ -377,6 +389,10 @@
     height: 20px;
     transition: 0.3s;
     width: 20px;
+  }
+
+  .url-icon-img:active {
+    transform: scale(1.4);
   }
 
   .url-icon-img:hover {
