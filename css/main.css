@@ -207,7 +207,7 @@
   }
 
   .modal-bg {
-    animation: modal-mid 1s cubic-bezier(0.5, -0.5, 1, 1);
+    animation: modal-mid 0.7s cubic-bezier(0.5, -0.5, 1, 1);
     bottom: 14%;
     background-color: rgba(0, 0, 0, 0.75);
     height: 69%;
