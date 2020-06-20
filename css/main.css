@@ -148,7 +148,7 @@
   }
 
   .image-container {
-    bottom: 4%;
+    bottom: 5vh;
     cursor: pointer;
     display: block;
     height: 110px;
