@@ -216,7 +216,7 @@
   }
 
   .modal-bg-bottom {
-    animation: modal-bottom 0.4s ease;
+    animation: modal-bottom 0.35s ease;
     background-color: rgba(0, 0, 0, 0.9);
     bottom: 0;
     height: 14%;
@@ -225,7 +225,7 @@
   }
 
   .modal-bg-top {
-    animation: modal-top 0.4s ease;
+    animation: modal-top 0.35s ease;
     background-color: rgba(0, 0, 0, 0.9);
     height: 17%;
     position: absolute;
