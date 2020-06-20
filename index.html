@@ -19,25 +19,41 @@
 			<p>This screen dimension is not supported at this time.</p>
 		</div>
 
-		<div id="my-240z" class="modal">
-			<div class="modal-bg-top">
+		<div id="modal-240z" class="modal">
+			<div class="modal-frame" style="top: 0;">
 				<span class="modal-close">&times;</span>
 			</div>
 			<div class="modal-bg">
 				<div class="modal-scroll-container">
-					<img class="image-modal" src="images/240z/my-240z.jpg" alt="">
-					<img class="image-modal" src="images/240z/strut-front-240z.jpg" alt="">
-					<img class="image-modal" src="images/240z/rear-brakes-240z.jpg" alt="">
-					<img class="image-modal" src="images/240z/rear-hub-240z.jpg" alt="">
-					<img class="image-modal" src="images/240z/differential-240z.jpg" alt="">
-					<img class="image-modal" src="images/240z/wipers-240z.jpg" alt="">
-					<img class="image-modal" src="images/240z/ac-dash-240z.jpg" alt="">
-					<img class="image-modal" src="images/240z/ac-unit-240z.jpg" alt="">
-					<img class="image-modal" src="images/240z/ac-dryer-240z.jpg" alt="">
-					<img class="image-modal" src="images/240z/cam-sprocket-240z.jpg" alt="">
+					<img class="image-modal" src="images/240z/my-240z.jpg">
+					<img class="image-modal" src="images/240z/strut-front.jpg">
+					<img class="image-modal" src="images/240z/rear-brakes.jpg">
+					<img class="image-modal" src="images/240z/rear-hub.jpg">
+					<img class="image-modal" src="images/240z/differential.jpg">
+					<img class="image-modal" src="images/240z/wipers.jpg">
+					<img class="image-modal" src="images/240z/ac-dash.jpg">
+					<img class="image-modal" src="images/240z/ac-unit.jpg">
+					<img class="image-modal" src="images/240z/ac-dryer.jpg">
+					<img class="image-modal" src="images/240z/cam-sprocket.jpg">
 				</div>
 			</div>
-			<div class="modal-bg-bottom"></div>
+			<div class="modal-frame" style="bottom: 0;"></div>
+		</div>
+
+		<div id="modal-cpsc440" class="modal">
+			<div class="modal-frame" style="top: 0;">
+				<span class="modal-close">&times;</span>
+			</div>
+			<div class="modal-bg">
+				<div class="modal-scroll-container">
+					<img class="image-modal" src="images/cpsc440/transmitter.jpg">
+					<img class="image-modal" src="images/cpsc440/receiver.jpg">
+					<img class="image-modal" src="images/cpsc440/overall-design.jpg">
+					<img class="image-modal" src="images/cpsc440/program-design.jpg">
+					<img class="image-modal" src="images/cpsc440/android-app.jpg">
+				</div>
+			</div>
+			<div class="modal-frame" style="bottom: 0;"></div>
 		</div>
 
 		<div class="snap-container">
@@ -114,9 +130,9 @@
 							for creativity, modification, and improvement. With experience as a military mechanic and a wonder for all things machine,
 							I hope to endlessly hone my skillset.
 						</p>
-						<div onclick="open_modal('my-240z')" class="image-container">
-							<img class="image-240z" src="images/240z/my-240z.jpg" alt="image-240z">
+						<div onclick="open_modal('modal-240z')" class="image-container">
 							<img class="image-photos-icon" src="images/svg/photos.svg" alt="photos-image">
+							<img class="image-content" src="images/240z/my-240z.jpg" alt="image-240z">
 						</div>
 						<div class="section-content-page">
 							<a href="#hello-world" class="section-content-page-a">
@@ -146,6 +162,10 @@
 							Ideally, a movie with high/low rating and votes will be assigned to a group.
 							A group of movies that have a high rating and high number of votes can be recommended to users.
 						</p>
+						<div onclick="open_modal('')" class="image-container">
+							<img class="image-photos-icon" src="images/svg/photos.svg" alt="photos-image">
+							<img class="" src="">
+						</div>
 						<div class="section-content-page">
 							<a href="#cpsc440" class="section-content-page-a">
 								<span class="section-content-page-dot nav-bg"></span>
@@ -163,9 +183,13 @@
 						</p>
 						<p>
 							This project integrates the controller of a RC car to a Raspberry Pi.
-							The RC car is controlled using a custom android application and/or computer keyboard inputs.
+							The RC car is controlled using an android application and/or computer keyboard inputs.
 							Controller inputs are sent via wifi connection to the Raspberry Pi.
 						</p>
+						<div onclick="open_modal('modal-cpsc440')" class="image-container">
+							<img class="image-photos-icon" src="images/svg/photos.svg" alt="photos-image">
+							<img class="image-content" src="images/cpsc440/transmitter.jpg">
+						</div>
 						<div class="section-content-page">
 							<a href="#cpsc454" class="section-content-page-a">
 								<span class="section-content-page-dot light-bg"></span>
@@ -179,13 +203,16 @@
 						<h4>Cloud Computing & Security<br>CPSC454 Fall 2019</h4>
 						<p>
 							Distributed Cloud Computing with StarCluster (DC2S) utilizes Amazon's EC2 with StarCluster to simulate computational offloading for an android application.
-							StarCluster is an open source tool kit from MIT that manages computer clusters on the EC2.
 						</p>
 						<p>
 							Conceptually, an android application requiring more computional power or resources can delegate such task to a cloud server.
 							The cloud server equiped with multiple computers will perform the compute-intensive task for the android application.
 							Cloud or edge computing can be used as way to deliver computing power to mobile phones and IoT devices.
 						</p>
+						<div onclick="open_modal('')" class="image-container">
+							<img class="image-photos-icon" src="images/svg/photos.svg" alt="photos-image">
+							<img class="" src="">
+						</div>
 						<div class="section-content-page">
 							<a href="#cpsc479" class="section-content-page-a">
 								<span class="section-content-page-dot light-bg"></span>
@@ -245,7 +272,7 @@
 						<p>Bachelor of Computer Science</p>
 					</div>
 				</div>
-				<div class="section-page light-bg"></div>
+				<div class="section-page dark-bg"></div>
 			</section>
 
 		</div>
