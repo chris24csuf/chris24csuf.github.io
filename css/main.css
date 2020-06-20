@@ -207,27 +207,27 @@
   }
 
   .modal-bg {
-    animation: modal-mid 0.7s cubic-bezier(0.5, -0.5, 1, 1);
-    bottom: 14%;
+    animation: modal-content 0.7s cubic-bezier(0.5, -0.5, 1, 1);
+    bottom: 10%;
     background-color: rgba(0, 0, 0, 0.75);
-    height: 69%;
+    height: 80%;
     position: absolute;
     width: 100%;
   }
 
   .modal-bg-bottom {
-    animation: modal-bottom 0.35s ease;
+    animation: modal-frame 0.35s ease;
     background-color: rgba(0, 0, 0, 0.9);
     bottom: 0;
-    height: 14%;
+    height: 10%;
     position: absolute;
     width: 100%;
   }
 
   .modal-bg-top {
-    animation: modal-top 0.35s ease;
+    animation: modal-frame 0.35s ease;
     background-color: rgba(0, 0, 0, 0.9);
-    height: 17%;
+    height: 10%;
     position: absolute;
     width: 100%;
     top: 0;
@@ -372,18 +372,13 @@
   }
 
   /* ----------ANIMATIONS---------- */
-  @keyframes modal-bottom {
+  @keyframes modal-frame {
     from { height: 0; }
-    to { height: 14%; }
+    to { height: 10%; }
   }
 
-  @keyframes modal-mid {
+  @keyframes modal-content {
     from { opacity: 0; }
     to { opacity: 1; }
-  }
-
-  @keyframes modal-top {
-    from { height: 0; }
-    to { height: 17%; }
   }
 }
