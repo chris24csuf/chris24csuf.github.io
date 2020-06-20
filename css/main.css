@@ -2,6 +2,14 @@
   display: none;
 }
 
+.modal-bg {
+  display: none;
+}
+
+.modal-frame {
+  display: none;
+}
+
 .screen-size-not-supported {
   display: block;
 }
@@ -216,6 +224,7 @@
     animation: fade-in 0.7s cubic-bezier(0.5, -0.5, 1, 1);
     bottom: 10%;
     background-color: rgba(0, 0, 0, 0.75);
+    display: block;
     height: 80%;
     position: absolute;
     width: 100%;
@@ -224,6 +233,7 @@
   .modal-frame {
     animation: modal-frame-slide 0.35s ease;
     background-color: rgba(0, 0, 0, 0.9);
+    display: block;
     height: 10%;
     position: absolute;
     width: 100%;
