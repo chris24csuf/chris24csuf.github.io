@@ -141,15 +141,20 @@
 
   .image-content {
     border-radius: 50%;
+    cursor: pointer;
     height: 100%;
     object-fit: cover;
     transition: 0.3s;
     width: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .image-content:active {
+    transform: scale(1.07);
   }
 
   .image-container {
     bottom: 5%;
-    cursor: pointer;
     display: block;
     height: 110px;
     left: 50%;
@@ -158,11 +163,6 @@
     position: absolute;
     transform: translateX(-50%);
     width: 110px;
-    -webkit-tap-highlight-color: transparent;
-  }
-
-  .image-content:active {
-    transform: scale(1.07);
   }
 
   .image-graduate {
@@ -179,7 +179,6 @@
     margin: auto;
     padding: 0 2%;
     object-fit: cover;
-    /* width: 100%; */
   }
 
   .image-photos-icon {
