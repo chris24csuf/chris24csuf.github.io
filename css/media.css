@@ -447,4 +447,14 @@
   .url-icon-img:hover {
     transform: scale(1.4);
   }
+
+  .url-icon-section-heading-img {
+    height: 35px;
+    transition: 0.3s;
+    width: 35px;
+  }
+
+  .url-icon-section-heading-img:hover {
+    transform: scale(1.4);
+  }
 }

@@ -152,7 +152,7 @@
     cursor: pointer;
     height: 100%;
     object-fit: cover;
-    opacity: 0.8;
+    opacity: 0.75;
     transition: 0.3s;
     width: 100%;
     -webkit-tap-highlight-color: transparent;
@@ -195,7 +195,7 @@
     top: 2vh;
     left: 2vh;
     height: 16px;
-    opacity: 0.5;
+    opacity: 0.6;
     position: absolute;
     width: 16px;
   }
@@ -338,6 +338,10 @@
     -webkit-tap-highlight-color: transparent;
   }
 
+  .section-heading {
+    display: inline-block;
+  }
+
   .section-page {
     bottom: 0;
     height: 10%;
@@ -391,6 +395,16 @@
   }
 
   .url-icon-img:active {
+    transform: scale(1.4);
+  }
+
+  .url-icon-section-heading-img {
+    height: 28px;
+    transition: 0.3s;
+    width: 28px;
+  }
+
+  .url-icon-section-heading-img:active {
     transform: scale(1.4);
   }
 
