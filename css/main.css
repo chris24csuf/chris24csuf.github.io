@@ -366,7 +366,7 @@
     height: 100%;
     overflow: scroll;
     overflow-x: hidden;
-    position: fixed;
+    position: absolute;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     width: 100%;
