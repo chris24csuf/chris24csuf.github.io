@@ -18,10 +18,6 @@
 }
 
 @media only screen and (min-width: 320px) and (min-height: 550px) {
-  :root {
-    --vh: 0;
-  }
-
   /* ----------TAGS---------- */
   a, body, h1, h2, h3, h4, p {
     margin: 0;
@@ -367,11 +363,10 @@
   .snap-container {
     animation: fade-in 0.8s cubic-bezier(0.5, -0.5, 1, 1);
     display: block;
-    /* height: 100vh; */
-    height: var(--vh);
+    height: 100%;
     overflow: scroll;
     overflow-x: hidden;
-    position: relative;
+    position: fixed;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     -webkit-scroll-snap-type: mandatory;

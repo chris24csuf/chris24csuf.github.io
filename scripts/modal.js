@@ -1,12 +1,4 @@
 
-
-document.addEventListener("DOMContentLoaded", function(event) {
-  // let h = window.innerHeight;
-  let h = window.innerHeight;
-
-  document.documentElement.style.setProperty('--vh', `${h}px`);
-});
-
 function open_modal(name){
   let modal = document.getElementById(name);
   let close_modal = document.querySelector('#' + name + '.modal span.modal-close');
