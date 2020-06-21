@@ -1,10 +1,11 @@
 
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  let vh = window.innerHeight;
+  let in = window.innerHeight;
+  let out = window.outerHeight;
   let t = document.getElementById('test');
 
-  t.innerHTML = vh;
+  t.innerHTML = in + " " + out;
 });
 
 function open_modal(name){
