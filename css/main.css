@@ -164,13 +164,13 @@
   .image-container {
     bottom: 5%;
     display: block;
-    height: 115px;
+    height: 120px;
     left: 50%;
     margin: auto;
     padding: 2vh;
     position: absolute;
     transform: translateX(-50%);
-    width: 115px;
+    width: 120px;
   }
 
   .image-graduate {
