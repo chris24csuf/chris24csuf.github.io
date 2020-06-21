@@ -2,10 +2,9 @@
 
 document.addEventListener("DOMContentLoaded", function(event) {
   // let h = window.innerHeight;
-  let h = window.outerHeight;
-  let t = document.getElementById('test');
+  let h = window.innerHeight;
 
-  t.innerHTML = h;
+  document.documentElement.style.setProperty('--vh', `${h}px`);
 });
 
 function open_modal(name){
