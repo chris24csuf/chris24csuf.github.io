@@ -267,6 +267,10 @@
     -webkit-overflow-scrolling: touch;
   }
 
+  .modal-scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+
   .name-detail {
     display: inline;
     font-size: 1.3rem;
@@ -369,6 +373,10 @@
     -webkit-overflow-scrolling: touch;
   }
 
+  .section-snap-container::-webkit-scrollbar {
+    display: none;
+  }
+
   .snap-container {
     animation: fade-in 0.8s cubic-bezier(0.5, -0.5, 1, 1);
     display: block;
@@ -379,6 +387,10 @@
     scroll-snap-type: y mandatory;
     -webkit-scroll-snap-type: mandatory;
     -webkit-overflow-scrolling: touch;
+  }
+
+  .snap-container::-webkit-scrollbar {
+    display: none;
   }
 
   .url-icon-a {
