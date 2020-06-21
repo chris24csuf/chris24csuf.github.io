@@ -333,6 +333,7 @@
   }
 
   .image-content:hover {
+    opacity: 1;
     transform: scale(1.07);
   }
 

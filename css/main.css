@@ -152,6 +152,7 @@
     cursor: pointer;
     height: 100%;
     object-fit: cover;
+    opacity: 0.8;
     transition: 0.3s;
     width: 100%;
     -webkit-tap-highlight-color: transparent;
