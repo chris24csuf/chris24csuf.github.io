@@ -1,11 +1,10 @@
 
-let vh = window.innerHeight;
 
-document.documentElement.style.setProperty('--vh', `${vh}px`);
-
-window.addEventListener('resize', () => {
+document.addEventListener("DOMContentLoaded", function(event) {
   let vh = window.innerHeight;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
+  let t = document.getElementById('test');
+
+  t.innerHTML = vh;
 });
 
 function open_modal(name){
