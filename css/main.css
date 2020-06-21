@@ -18,6 +18,10 @@
 }
 
 @media only screen and (min-width: 320px) and (min-height: 550px) {
+  :root {
+    --vh: 0;
+  }
+
   /* ----------TAGS---------- */
   a, body, h1, h2, h3, h4, p {
     margin: 0;
@@ -364,7 +368,7 @@
     animation: fade-in 0.8s cubic-bezier(0.5, -0.5, 1, 1);
     display: block;
     height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
+    height: var(--vh);
     overflow: scroll;
     overflow-x: hidden;
     position: relative;
