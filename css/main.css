@@ -145,6 +145,8 @@
 
   .footer-p {
     font-size: 0.6rem;
+    position: relative;
+    top: 25%;
   }
 
   .image-content {
@@ -379,11 +381,6 @@
     -webkit-overflow-scrolling: touch;
   }
 
-  .url-icons {
-    padding-top: 0.5vh;
-    text-align: center;
-  }
-
   .url-icon-a {
     padding: 0 1vh;
   }
@@ -406,6 +403,16 @@
 
   .url-icon-section-heading-img:active {
     transform: scale(1.4);
+  }
+
+  .url-icons {
+    padding-top: 0.5vh;
+    text-align: center;
+  }
+
+  .url-edu {
+    position: relative;
+    top: -5%;
   }
 
   /* ----------ANIMATIONS---------- */

@@ -368,9 +368,9 @@
   }
 
   .image-profile {
-    height: 175px;
+    height: 190px;
     padding: 1.5vh;
-    width: 175px;
+    width: 190px;
   }
 
   .modal-close {
@@ -432,7 +432,7 @@
   }
 
   .section-page {
-    height: 7vh;
+    height: 7%;
   }
 
   .section-projects {
