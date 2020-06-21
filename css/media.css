@@ -117,6 +117,11 @@
     height: 21px;
     width: 21px;
   }
+
+  .url-icon-section-heading-img {
+    height: 30px;
+    width: 30px;
+  }
 }
 
 @media screen and (min-width: 400px) {
@@ -238,6 +243,11 @@
   .url-icon-img {
     height: 25px;
     width: 25px;
+  }
+
+  .url-icon-section-heading-img {
+    height: 32px;
+    width: 32px;
   }
 }
 
@@ -449,9 +459,8 @@
   }
 
   .url-icon-section-heading-img {
-    height: 35px;
-    transition: 0.3s;
-    width: 35px;
+    height: 36px;
+    width: 36px;
   }
 
   .url-icon-section-heading-img:hover {
