@@ -40,7 +40,7 @@
   }
 
   header {
-    height: 50vh;
+    height: 50%;
     padding-top: 35vh;
     position: relative;
     scroll-snap-align: start;
@@ -106,7 +106,7 @@
   }
 
   section {
-    height: 87.5vh;
+    height: 87.5%;
     padding-top: 12.5vh;
     position: relative;
     scroll-snap-align: start;
@@ -337,7 +337,7 @@
 
   .section-page {
     bottom: 0;
-    height: 10vh;
+    height: 10%;
     position: absolute;
     width: 100%;
   }
@@ -369,6 +369,7 @@
     position: fixed;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    width: 100%;
     -webkit-scroll-snap-type: mandatory;
     -webkit-overflow-scrolling: touch;
   }
