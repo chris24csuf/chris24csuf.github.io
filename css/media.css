@@ -252,22 +252,28 @@
 }
 
 @media screen and (min-width: 600px) {
-
 }
 
 @media screen and (min-width: 800px) {
-
-}
-
-@media screen and (min-width: 800px) and (min-height: 1000px) {
-
-}
-
-@media screen and (min-width: 1000px) {
   ul {
     column-count: 3;
     height: 80px;
     padding-inline-start: 40px;
+  }
+
+  .section-skills {
+    left: 15%;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 800px) and (min-height: 1000px) {
+}
+
+@media screen and (min-width: 1000px) {
+  .section-skills {
+    left: 25%;
+    width: 50%;
   }
 }
 
@@ -442,11 +448,6 @@
 
   .section-snap-container {
     height: 93%;
-  }
-
-  .section-skills {
-    left: 25%;
-    width: 50%;
   }
 
   .url-icon-img {
